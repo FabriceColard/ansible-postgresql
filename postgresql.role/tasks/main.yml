@@ -5,3 +5,6 @@
 # Setup /install task
 - include_tasks: setup-CentOS.yml
   when: ansible_distribution == 'CentOS'
+
+- include_tasks: initialize.yml
+

@@ -1,2 +1,11 @@
 ---
 # defaults file for postgresql.role
+postgresql_enablerepo: ""
+
+postgresql_restarted_state: "restarted"
+
+postgresql_user: postgres
+postgresql_group: postgres
+
+postgresql_service_state: started
+postgresqp_service_enabled: true
