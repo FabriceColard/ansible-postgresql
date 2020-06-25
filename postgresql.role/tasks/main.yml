@@ -14,3 +14,5 @@
     state: "{{ postgresql_service_state }}"
     enabled: "{{ postgresql_service_enabled }}"
 
+- import_tasks: users.yml
+
