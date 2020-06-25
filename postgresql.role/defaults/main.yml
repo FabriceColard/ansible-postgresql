@@ -8,4 +8,4 @@ postgresql_user: postgres
 postgresql_group: postgres
 
 postgresql_service_state: started
-postgresqp_service_enabled: true
+postgresql_service_enabled: true
